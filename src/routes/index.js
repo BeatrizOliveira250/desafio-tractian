@@ -11,6 +11,7 @@ function Routes() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/ativos" exact component={Ativos} />
+        <Route component={() => <div>Page 404!!</div> } />
       </Switch>
     </BrowserRouter>
   );
