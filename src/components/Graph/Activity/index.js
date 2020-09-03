@@ -1,23 +1,20 @@
-import React from 'react';
-//import { render } from 'react-dom';
-import Highcharts from 'highcharts';
-import HighchartsReact from 'highcharts-react-official';
+import React from 'react'
+import Highcharts from 'highcharts/highstock'
+import HighchartsReact from 'highcharts-react-official'
 
 const options = {
   title: {
-    text: 'My chart'
+    text: 'My stock chart'
   },
   series: [{
     data: [1, 2, 3]
   }]
 }
 
-const Activity = () => <div>
-  <HighchartsReact
-    highcharts={Highcharts}
-    options={options}
-  />
-</div>
+const Activity = () => <HighchartsReact
+  highcharts={Highcharts}
+  constructorType={'stockChart'}
+  options={options}
+/>
 
 export default Activity;
-
