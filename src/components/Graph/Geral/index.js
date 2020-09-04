@@ -11,7 +11,7 @@ const options = {
     type: 'column'
   },
   title: {
-    text: 'Basic drilldown'
+    text: 'Dashboard'
   },
   xAxis: {
     type: 'category'
@@ -23,23 +23,28 @@ const options = {
 
   series: [
     {
-      name: 'Things',
+      name: 'Ativos',
       colorByPoint: true,
       data: [
         {
-          name: 'Animals',
-          y: 5,
-          drilldown: 'animals'
+          name: 'EM USO',
+          y: 10,
+          drilldown: 'em uso'
         },
         {
-          name: 'Fruits',
+          name: 'EM MANUTENÇÃO',
           y: 2,
-          drilldown: 'fruits'
+          drilldown: 'em manutenção'
         },
         {
-          name: 'Cars',
+          name: 'DISPONÍVEIS',
           y: 4,
-          drilldown: 'cars'
+          drilldown: 'disponíveis'
+        },
+        {
+          name: 'ALERTA',
+          y: 4,
+          drilldown: 'alerta'
         }
       ]
     }
@@ -47,15 +52,19 @@ const options = {
   drilldown: {
     series: [
       {
-        id: 'animals',
-        data: [['Cats', 4], ['Dogs', 2], ['Sheep', 2], ['Pigs', 1]]
+        id: 'em uso',
+        data: [['Cats', 4], ['Dogs', 2], ['Sheep', 2], ['Pigs', 1], ['Dogshg', 10]]
       },
       {
-        id: 'fruits',
+        id: 'em manutenção',
         data: [['Apples', 4], ['Oranges',2]]
       },
       {
-        id: 'cars',
+        id: 'disponíveis',
+        data: [['Toyota', 4], ['Opel', 2], ['Volkswagen', 2]]
+      },
+      {
+        id: 'alerta',
         data: [['Toyota', 4], ['Opel', 2], ['Volkswagen', 2]]
       }
     ]

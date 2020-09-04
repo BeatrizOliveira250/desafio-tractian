@@ -7,6 +7,7 @@ import { Avatar, Tooltip } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
+import { Progress } from 'antd';
 import {
   SlidersFilled,
   PieChartFilled,
@@ -15,7 +16,7 @@ import {
   HeartTwoTone,
 } from '@ant-design/icons';
 import './styles.css';
-import Activity from '../../components/Graph/Activity';
+//import Activity from '../../components/Graph/Activity';
 import Geral from '../../components/Graph/Geral';
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -29,8 +30,10 @@ const Home = () => {
 
   return (
     <Layout style={{ minHeight: '100vh' }}>
+
       <Sider style={{ paddingTop: 60, marginTop: 0 }} collapsible collapsed={collapsed} onCollapse={onCollapse}>
         <div className="logo" />
+
         <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
           <Menu.Item key="1" icon={<PieChartFilled />}>
             Geral
@@ -49,7 +52,9 @@ const Home = () => {
           <Menu.Item key="9" icon={<FileOutlined />} />
         </Menu>
       </Sider>
-      <Layout className="site-layout">
+
+  <Layout className="site-layout">
+
         <Header className="site-layout-background" style={{ padding: 10 }}>
           <Avatar.Group style={{ float: 'right' }}>
             <Tooltip title="Emerson" placement="top">
@@ -61,34 +66,42 @@ const Home = () => {
           </Avatar.Group>
           <Title style={{ color: 'white', textAlign: 'center' }} level={3}>TRACTIAN</Title>
         </Header>
+
         <Content style={{ margin: '0 16px' }}>
           <Button style={{marginTop: '10px', width: '300px', textAlign: 'left'}} icon={<SearchOutlined />}>Procurar por Ativos</Button>
-          <div className="site-card-wrapper">
+
+       <div className="site-card-wrapper">
+
             <Row gutter={16}>
+
               <Col span={8}>
                 <Card style={{ color: '#91DA6E', height: 300, marginTop: '10px' }} title="Nível de Saúde" bordered={false}>
-                  < Activity />
-                  Card content
+                <Progress style={{marginLeft: 80, marginBlock:0}} type="circle" percent={75} />
+                <Title style={{ color: '#48A8FF', textAlign: 'center', marginTop:10  }} level={3}>75%</Title>
                 </Card>
               </Col>
+
               <Col span={8}>
                 <Card  style={{ color: '#48A8FF', height: 300, marginTop: '10px' }} title="Insights Resolvidos" bordered={false}>
-                  Card content
+                <Progress  style={{marginLeft: 80, alignItems: 'center'}}type="circle" percent={100} />
+                <Title style={{ color: '#48A8FF', textAlign: 'center', marginTop:10 }} level={3}>100%</Title>
                 </Card>
               </Col>
+
               <Col span={8}>
                 <Card style={{ color: '#FBC04A', height: 300, marginTop: '10px'}} title="Insights Pendentes" bordered={false}>
-                  Card content
+                <Progress style={{ marginLeft: 80, marginBlock:0}} type="circle" percent={70} status="exception" />
+                <Title style={{ color: '#48A8FF', textAlign: 'center', marginTop: 10 }} level={3}>70%</Title>
                 </Card>
               </Col>
-              <Col span={12}>
-                <Card style={{ color: '#48A8FF', marginTop: 15, height: 500}} title="Carrosel dos ativos" bordered={false}>
 
-                  Card content
+              <Col span={12}>
+                <Card style={{ color: '#48A8FF', marginTop: 15, height: 400}} title="Carrosel dos ativos" bordered={false}>
                 </Card>
               </Col>
+
               <Col span={12}>
-                <Card style={{ color: '#FBC04A', marginTop: 15, height: 500, width: 500 }} title="Gráfico" bordered={false}>
+                <Card style={{ color: '#FBC04A', marginTop: 15, height: 500, width: 500 }} title="" bordered={false}>
                   < Geral />
                 </Card>
               </Col>

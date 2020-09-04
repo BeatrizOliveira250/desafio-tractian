@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout, Menu } from 'antd';
 import Title from 'antd/lib/typography/Title';
-import { Card, Col, Row } from 'antd';
 import { Avatar, Tooltip } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
+import { Button } from 'antd';
+import { SearchOutlined } from '@ant-design/icons';
 import {
   SlidersFilled,
   PieChartFilled,
@@ -13,6 +14,8 @@ import {
   HeartTwoTone,
 } from '@ant-design/icons';
 import './styles.css';
+
+//import Collapsed from '../Collapse';
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -58,44 +61,8 @@ const Main = () => {
           <Title style={{ color: 'white', textAlign: 'center' }} level={3}>TRACTIAN</Title>
         </Header>
         <Content style={{ margin: '0 16px' }}>
-          <Breadcrumb style={{ margin: '16px 0' }}>
-            <Breadcrumb.Item>User</Breadcrumb.Item>
-            <Breadcrumb.Item>Emerson</Breadcrumb.Item>
-          </Breadcrumb>
-          <div className="site-card-wrapper">
-            <Row gutter={16}>
-              <Col span={8}>
-                <Card style={{ color: '#91DA6E', height: 300 }} title="Nível de Saúde" bordered={false}>
-                  Card content
-                </Card>
-              </Col>
-              <Col span={8}>
-                <Card style={{ color: '#48A8FF', height: 300 }} title="Insights Resolvidos" bordered={false}>
-                  Card content
-                </Card>
-              </Col>
-              <Col span={8}>
-                <Card style={{ color: '#FBC04A', height: 300 }} title="Insights Pendentes" bordered={false}>
-                  Card content
-                </Card>
-              </Col>
-              <Col span={8}>
-                <Card style={{ color: '#91DA6E', height: 300 }} title="Nível de Saúde" bordered={false}>
-                  Card content
-                </Card>
-              </Col>
-              <Col span={8}>
-                <Card style={{ color: '#48A8FF', height: 300 }} title="Insights Resolvidos" bordered={false}>
-                  Card content
-                </Card>
-              </Col>
-              <Col span={8}>
-                <Card style={{ color: '#FBC04A', height: 300 }} title="Insights Pendentes" bordered={false}>
-                  Card content
-                </Card>
-              </Col>
-            </Row>
-          </div>
+        <Button style={{marginTop: '10px', width: '300px', textAlign: 'left'}} icon={<SearchOutlined />}>Procurar por Ativos</Button>
+
         </Content>
         <Footer style={{ textAlign: 'center' }}>Made with {<HeartTwoTone twoToneColor="#993399" />} by Beatriz Oliveira</Footer>
       </Layout>
