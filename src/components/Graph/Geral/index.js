@@ -28,7 +28,7 @@ const options = {
       data: [
         {
           name: 'EM USO',
-          y: 10,
+          y: 8,
           drilldown: 'em uso'
         },
         {
@@ -53,19 +53,19 @@ const options = {
     series: [
       {
         id: 'em uso',
-        data: [['Cats', 4], ['Dogs', 2], ['Sheep', 2], ['Pigs', 1], ['Dogshg', 10]]
+        data: [['Servo Motor #SM354', 4], ['Servo Motor #SM359', 2], ['Servo Motor #SM64', 2]]
       },
       {
         id: 'em manutenção',
-        data: [['Apples', 4], ['Oranges',2]]
+        data: [['Bomba Hidraúlica CXS7-369', 4], ['Servo Motor #SM375',2]]
       },
       {
         id: 'disponíveis',
-        data: [['Toyota', 4], ['Opel', 2], ['Volkswagen', 2]]
+        data: [['Servo Motor #SM36', 4], ['Mancal #MA362', 2], ['Mancal #MA264', 2]]
       },
       {
         id: 'alerta',
-        data: [['Toyota', 4], ['Opel', 2], ['Volkswagen', 2]]
+        data: [['Servo Motor #SM32', 4], ['Bomba Hidráulica CXS7-99993', 2], ['CAER 3X13', 2]]
       }
     ]
   }

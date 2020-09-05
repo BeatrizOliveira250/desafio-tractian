@@ -1,9 +1,22 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './styles.css';
 import Main from '../../components/Main';
 
+import api from '../../services/api';
 
-function Ativos() {
+
+
+
+const Ativos = () => {
+  const [data, setData] = useState();
+
+  useEffect(() => {
+    const response = api.get('/posts');
+    setData(response.data);
+
+    console.log(data);
+  }, []);
+
     return (
       <Main />
     );

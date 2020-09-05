@@ -1,0 +1,406 @@
+{
+  "units": [
+    {
+      "_id": "feb47a3bc43b8230fa7ac3cb07152c2c",
+      "name": "Unidade 1",
+      "data": {
+        "countAssets": 9,
+        "inUse": 6,
+        "available": 1,
+        "onAlert": 1,
+        "underMaintenance": 1,
+        "insightsPending": 21,
+        "insightsChecked": 9,
+        "assetsData": [
+          {
+            "_id": "5e68e618cec2830be548cad1",
+            "insights": {
+              "_id": null,
+              "checked": 3,
+              "pending": 7
+            },
+            "maintenances": [],
+            "name": "Bomba Hidráulica CXS7-369",
+            "startup": "2020-03-10T09:58:52.488Z",
+            "company": "5e6a594be40d8025c87063fd",
+            "unit": "5e91e2a27bb41a0d13fd279e",
+            "model": {
+              "_id": "5e8ce363ccc21e1830e9bd55",
+              "description": "Modelo de bomba hidráulica",
+              "image": "https://i.imgur.com/rwabBdj.png",
+              "docs": [],
+              "name": "CAER 3X13",
+              "category": "5e8bc17458c6471f721fc5ad",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "category": {
+              "_id": "5e8babd5a3cb2e1e8630ea1b",
+              "name": "Hidráulicos",
+              "description": "Categoria utilizada apenas hidráulicos",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "description": "Bomba usada para alimentar a saída do recirculador",
+            "createdAt": "2020-03-11T13:22:32.583Z",
+            "updatedAt": "2020-05-27T08:30:10.821Z",
+            "__v": 58,
+            "healthscore": {
+              "_id": "5ea43ef5b4d38f302c422658",
+              "health": 79
+            }
+          },
+          {
+            "_id": "5e949f9ca271d914f7e1ca44",
+            "name": "Servo Motor #SM354",
+            "startup": "2020-03-10T09:58:52.488Z",
+            "company": "5e6a594be40d8025c87063fd",
+            "unit": "5e91e2a27bb41a0d13fd279e",
+            "model": {
+              "_id": "5e9491913863250a2ed96869",
+              "description": "CA 220V - 3000rpm potência 200w com Freio",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFe2p1EAiJtPQS7sTZ-iHE4ZjTimbuOGwaOopolIHNaVFAs1hGGSuPjVyG5btJo34cQ3YDCLfM&usqp=CAc",
+              "docs": [],
+              "name": "SM0 SM7894h3",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "category": {
+              "_id": "5e94927a3863250a2ed96871",
+              "description": "Primeiro passo da fragmentação de carga",
+              "name": "AC0 - Britagem",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "description": "Motor de brita 1 para início de produção",
+            "insights": {
+              "_id": null,
+              "checked": 0,
+              "pending": 5
+            },
+            "maintenances": [],
+            "__v": 1,
+            "createdAt": "2020-04-13T17:21:33.020Z",
+            "updatedAt": "2020-04-29T15:42:49.518Z",
+            "healthscore": {
+              "_id": "5ea44e1fbb2757320a24dc58",
+              "health": 73
+            }
+          },
+          {
+            "_id": "5e949f9ca271d914f7e1ca45",
+            "name": "Servo Motor #SM359",
+            "startup": "2020-07-10T09:43:50.488Z",
+            "company": "5e6a594be40d8025c87063fd",
+            "unit": "5e91e2a27bb41a0d13fd279e",
+            "model": {
+              "_id": "5e9491913863250a2ed96869",
+              "description": "CA 220V - 3000rpm potência 200w com Freio",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFe2p1EAiJtPQS7sTZ-iHE4ZjTimbuOGwaOopolIHNaVFAs1hGGSuPjVyG5btJo34cQ3YDCLfM&usqp=CAc",
+              "docs": [],
+              "name": "SM0 SM7894h3",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "category": {
+              "_id": "5e94927a3863250a2ed96871",
+              "description": "Primeiro passo da fragmentação de carga",
+              "name": "AC0 - Britagem",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "description": "Motor para elevar carga",
+            "insights": {
+              "_id": null,
+              "checked": 2,
+              "pending": 2
+            },
+            "maintenances": [],
+            "__v": 0,
+            "createdAt": "2020-04-13T17:21:33.021Z",
+            "updatedAt": "2020-04-26T15:59:49.468Z",
+            "healthscore": {
+              "_id": "5ea44ee1bb2757320a24dc59",
+              "health": 81
+            }
+          },
+          {
+            "_id": "5e949f9ca271d914f7e1ca46",
+            "name": "Servo Motor  #SM364",
+            "startup": "2020-08-10T09:43:50.488Z",
+            "company": "5e6a594be40d8025c87063fd",
+            "unit": "5e91e2a27bb41a0d13fd279e",
+            "model": {
+              "_id": "5e9491913863250a2ed96869",
+              "description": "CA 220V - 3000rpm potência 200w com Freio",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFe2p1EAiJtPQS7sTZ-iHE4ZjTimbuOGwaOopolIHNaVFAs1hGGSuPjVyG5btJo34cQ3YDCLfM&usqp=CAc",
+              "docs": [],
+              "name": "SM0 SM7894h3",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "category": {
+              "_id": "5e94927a3863250a2ed96871",
+              "description": "Primeiro passo da fragmentação de carga",
+              "name": "AC0 - Britagem",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "description": "Motor da britadeira 72",
+            "insights": {
+              "_id": null,
+              "checked": 1,
+              "pending": 1
+            },
+            "maintenances": [],
+            "__v": 0,
+            "createdAt": "2020-04-13T17:21:33.021Z",
+            "updatedAt": "2020-04-26T16:00:30.080Z",
+            "healthscore": {
+              "_id": "5ea44f09bb2757320a24dc5a",
+              "health": 69
+            }
+          },
+          {
+            "_id": "5e949f9ca271d914f7e1ca47",
+            "name": "Servo Motor #SM375",
+            "startup": "2020-06-10T09:43:50.488Z",
+            "company": "5e6a594be40d8025c87063fd",
+            "unit": "5e91e2a27bb41a0d13fd279e",
+            "model": {
+              "_id": "5e9491913863250a2ed96869",
+              "description": "CA 220V - 3000rpm potência 200w com Freio",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFe2p1EAiJtPQS7sTZ-iHE4ZjTimbuOGwaOopolIHNaVFAs1hGGSuPjVyG5btJo34cQ3YDCLfM&usqp=CAc",
+              "docs": [],
+              "name": "SM0 SM7894h3",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "category": {
+              "_id": "5e94927a3863250a2ed96871",
+              "description": "Primeiro passo da fragmentação de carga",
+              "name": "AC0 - Britagem",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "description": "Motor utilizado para movimentar britadeiras 2",
+            "insights": {
+              "_id": null,
+              "checked": 3,
+              "pending": 1
+            },
+            "maintenances": [],
+            "__v": 1,
+            "createdAt": "2020-04-13T17:21:33.022Z",
+            "updatedAt": "2020-04-26T16:00:58.105Z",
+            "healthscore": {
+              "_id": "5ea44f33bb2757320a24dc5b",
+              "health": 75
+            }
+          },
+          {
+            "_id": "5e949f9ca271d914f7e1ca48",
+            "name": "Servo Motor #SM36",
+            "startup": "2020-08-10T09:43:50.488Z",
+            "company": "5e6a594be40d8025c87063fd",
+            "unit": "5e91e2a27bb41a0d13fd279e",
+            "model": {
+              "_id": "5e9491913863250a2ed96869",
+              "description": "CA 220V - 3000rpm potência 200w com Freio",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFe2p1EAiJtPQS7sTZ-iHE4ZjTimbuOGwaOopolIHNaVFAs1hGGSuPjVyG5btJo34cQ3YDCLfM&usqp=CAc",
+              "docs": [],
+              "name": "SM0 SM7894h3",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "category": {
+              "_id": "5e94927a3863250a2ed96871",
+              "description": "Primeiro passo da fragmentação de carga",
+              "name": "AC0 - Britagem",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "description": "Motor utilizado para britagem externa reserva",
+            "insights": {
+              "_id": null,
+              "checked": 0,
+              "pending": 2
+            },
+            "maintenances": [],
+            "__v": 0,
+            "createdAt": "2020-04-13T17:21:33.022Z",
+            "updatedAt": "2020-04-26T16:01:30.647Z",
+            "healthscore": {
+              "_id": "5ea44fd6bb2757320a24dc5c",
+              "health": 83
+            }
+          },
+          {
+            "_id": "5e949f9ca271d914f7e1ca49",
+            "name": "Mancal #MA362",
+            "startup": "2020-01-10T09:43:50.488Z",
+            "company": "5e6a594be40d8025c87063fd",
+            "unit": "5e91e2a27bb41a0d13fd279e",
+            "model": {
+              "_id": "5e94921a3863250a2ed9686d",
+              "description": "SN 508",
+              "image": "https://www.avasistema.com.br/images/mancal-fk-e-ff-02.jpg",
+              "docs": [],
+              "name": "MA1 Mancal",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "category": {
+              "_id": "5e94927a3863250a2ed96871",
+              "description": "Primeiro passo da fragmentação de carga",
+              "name": "AC0 - Britagem",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "description": "Mancal da linha 3 de Britagem",
+            "insights": {
+              "_id": null,
+              "checked": 0,
+              "pending": 1
+            },
+            "maintenances": [],
+            "__v": 0,
+            "createdAt": "2020-04-13T17:21:33.022Z",
+            "updatedAt": "2020-04-26T16:01:55.768Z",
+            "healthscore": {
+              "_id": "5ea44ff7bb2757320a24dc5d",
+              "health": 77
+            }
+          },
+          {
+            "_id": "5e949f9ca271d914f7e1ca4a",
+            "name": "Mancal #MA264",
+            "startup": "2019-02-10T09:43:50.488Z",
+            "company": "5e6a594be40d8025c87063fd",
+            "unit": "5e91e2a27bb41a0d13fd279e",
+            "model": {
+              "_id": "5e94920f3863250a2ed9686c",
+              "description": "Sustentação eixo 2 KC3 33443",
+              "image": "https://www.bruhel.com.br/wp-content/uploads/2019/12/mancal-2.jpg",
+              "docs": [],
+              "name": "MA0 M45",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "category": {
+              "_id": "5e94927a3863250a2ed96871",
+              "description": "Primeiro passo da fragmentação de carga",
+              "name": "AC0 - Britagem",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "description": "Mancal para passo 1 de produção de britagem",
+            "insights": {
+              "_id": null,
+              "checked": 0,
+              "pending": 1
+            },
+            "maintenances": [],
+            "__v": 0,
+            "createdAt": "2020-04-13T17:21:33.023Z",
+            "updatedAt": "2020-04-26T16:03:14.083Z",
+            "healthscore": {
+              "_id": "5ea4503bbb2757320a24dc5e",
+              "health": 76
+            }
+          },
+          {
+            "_id": "5e949f9ca271d914f7e1ca4b",
+            "name": "Servo Motor #SM32",
+            "startup": "2019-09-10T09:58:52.488Z",
+            "company": "5e6a594be40d8025c87063fd",
+            "unit": "5e91e2a27bb41a0d13fd279e",
+            "model": {
+              "_id": "5e9491913863250a2ed96869",
+              "description": "CA 220V - 3000rpm potência 200w com Freio",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFe2p1EAiJtPQS7sTZ-iHE4ZjTimbuOGwaOopolIHNaVFAs1hGGSuPjVyG5btJo34cQ3YDCLfM&usqp=CAc",
+              "docs": [],
+              "name": "SM0 SM7894h3",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "category": {
+              "_id": "5e94927a3863250a2ed96871",
+              "description": "Primeiro passo da fragmentação de carga",
+              "name": "AC0 - Britagem",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "description": "Motor de moagem 1 para movimento de carga",
+            "insights": {
+              "_id": null,
+              "checked": 0,
+              "pending": 1
+            },
+            "maintenances": [],
+            "__v": 0,
+            "createdAt": "2020-04-13T17:21:33.023Z",
+            "updatedAt": "2020-04-26T16:03:43.278Z",
+            "healthscore": {
+              "_id": "5ea45052bb2757320a24dc5f",
+              "health": 79
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": "feb47a3bc43b8230fa7ac3cb07152c2c",
+      "name": "Unidade 2",
+      "data": {
+        "countAssets": 1,
+        "inUse": 1,
+        "available": 0,
+        "onAlert": 0,
+        "underMaintenance": 0,
+        "insightsPending": 6,
+        "insightsChecked": 3,
+        "assetsData": [
+          {
+            "_id": "5e690304fb30e20f99dd2176",
+            "insights": {
+              "_id": null,
+              "checked": 3,
+              "pending": 6
+            },
+            "maintenances": [],
+            "name": "Bomba Hidráulica CXS7-99993",
+            "startup": "2020-03-10T09:58:52.488Z",
+            "company": "5e6a594be40d8025c87063fd",
+            "unit": "5e91e3a07bb41a0d13fd279f",
+            "model": {
+              "_id": "5e8ce363ccc21e1830e9bd55",
+              "description": "Modelo de bomba hidráulica",
+              "image": "https://i.imgur.com/rwabBdj.png",
+              "docs": [],
+              "name": "CAER 3X13",
+              "category": "5e8bc17458c6471f721fc5ad",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "category": {
+              "_id": "5e8babd5a3cb2e1e8630ea1b",
+              "name": "Hidráulicos",
+              "description": "Categoria utilizada apenas hidráulicos",
+              "company": "5e6a594be40d8025c87063fd",
+              "__v": 0
+            },
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry ever since the 1500",
+            "createdAt": "2020-03-11T15:25:56.344Z",
+            "updatedAt": "2020-04-26T15:58:32.566Z",
+            "__v": 3,
+            "healthscore": {
+              "_id": "5ea44890b996e93053530ced",
+              "health": 70
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

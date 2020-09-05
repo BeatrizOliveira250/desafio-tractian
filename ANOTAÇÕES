@@ -1,0 +1,5 @@
+import db from '../../data/db.json';
+
+
+
+db.map(item => console.log(item));

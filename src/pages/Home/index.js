@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Layout, Menu } from 'antd';
+import { Layout, Menu, Carousel } from 'antd';
 import Title from 'antd/lib/typography/Title';
 import { Card, Col, Row } from 'antd';
 import { Avatar, Tooltip } from 'antd';
@@ -11,7 +11,6 @@ import { Progress } from 'antd';
 import {
   SlidersFilled,
   PieChartFilled,
-  FileOutlined,
   TeamOutlined,
   HeartTwoTone,
 } from '@ant-design/icons';
@@ -22,11 +21,21 @@ import Geral from '../../components/Graph/Geral';
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
+
 const Home = () => {
 
   const [collapsed, setCollapsed] = useState(false)
 
   const onCollapse = collapsed => setCollapsed(collapsed);
+
+
+  const contentStyle = {
+    height: '160px',
+    color: '#fff',
+    lineHeight: '160px',
+    textAlign: 'center',
+    background: '#364d79',
+  };
 
   return (
     <Layout style={{ minHeight: '100vh' }}>
@@ -49,7 +58,6 @@ const Home = () => {
             <Menu.Item key="6">Team 1</Menu.Item>
             <Menu.Item key="8">Team 2</Menu.Item>
           </SubMenu>
-          <Menu.Item key="9" icon={<FileOutlined />} />
         </Menu>
       </Sider>
 
@@ -96,7 +104,38 @@ const Home = () => {
               </Col>
 
               <Col span={12}>
-                <Card style={{ color: '#48A8FF', marginTop: 15, height: 400}} title="Carrosel dos ativos" bordered={false}>
+                <Card style={{ color: '#48A8FF', marginTop: 15, height: 500}} title="Ativos" bordered={false}>
+                 Unidade 1
+                <Carousel autoplay>
+                   <div>
+                     <h3 style={contentStyle}>1</h3>
+                   </div>
+                   <div>
+                      <h3 style={contentStyle}>2</h3>
+                   </div>
+                   <div>
+                      <h3 style={contentStyle}>3</h3>
+                  </div>
+                   <div>
+                    <h3 style={contentStyle}>4</h3>
+                  </div>
+                </Carousel>
+                Unidade 2
+                <Carousel autoplay>
+                   <div>
+                     <h3 style={contentStyle}>1</h3>
+                   </div>
+                   <div>
+                      <h3 style={contentStyle}>2</h3>
+                   </div>
+                   <div>
+                      <h3 style={contentStyle}>3</h3>
+                  </div>
+                   <div>
+                    <h3 style={contentStyle}>4</h3>
+                  </div>
+                </Carousel>
+
                 </Card>
               </Col>
 
