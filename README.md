@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://nerdflix-tau.vercel.app/">
+  <a href="https://n/">
     <img width="250" src="file:///C:/Users/Ana%20Beatriz/Desktop/desafio-tractian/public/tractian.svg" />
   </a>
 </p>
@@ -8,7 +8,7 @@
 
 <div align="center">
 
-### Aplicação para usuários consultarem a lista de todos os ativos🤓
+### Aplicação para usuários consultarem a lista de todos os ativos🤓🔧💻🚜
 
 <p align="center">
   <a href="">
@@ -35,7 +35,7 @@
    
    [**Highcharts**](https://styled-components.com/)
    
-   [**VS Code**](https://code.visualstudio.com/) with [**EditorConfig**](https://editorconfig.org/), [**ESLint**](https://eslint.org/),  [**EditorConfig**](https://editorconfig.org/),[**Prettier**](https://https://prettier.io/)
+   [**VS Code**](https://code.visualstudio.com/) with [**EditorConfig**](https://editorconfig.org/), [**ESLint**](https://eslint.org/), [**Prettier**](https://https://prettier.io/)
   
  
 ## ℹ️ Como rodar o projeto?
@@ -43,9 +43,9 @@
 Após baixar o projeto, acesse ele via seu terminal rode os comandos:
 
 ```sh
-npm install
-npm start
+npm install ou yarn install
+npm start ou yarn start
 ```
 
 🔗 Você pode conferir ele em execução no link:
-  [https://nerdflix-tau.vercel.app/](https://nerdflix-tau.vercel.app/)
+  [https://nerdflix-tau.vercel.app/](https://n/)
