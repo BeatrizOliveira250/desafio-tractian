@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/desafio-tractian/precache-manifest.8be962d051b5110e3762fda7f7919f45.js"
+  "/desafio-tractian/precache-manifest.642c81929250d3b70f77b5beca1efefb.js"
 );
 
 self.addEventListener('message', (event) => {
