@@ -8,7 +8,7 @@
 
 <div align="center">
 
-### Aplicação para usuários consultarem a lista de todos os ativos🤓🔧💻🚜
+### Aplicação para usuários consultarem a lista de todos os ativos 🤓🔧💻🚜
 
 <p align="center">
   <a href="">
