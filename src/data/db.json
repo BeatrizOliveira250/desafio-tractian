@@ -13,7 +13,9 @@
       "postId": 1
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "profile": [
+    {
+      "name": "typicode"
+    }
+  ]
 }

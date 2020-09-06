@@ -5,8 +5,6 @@ import Title from 'antd/lib/typography/Title';
 import { Card, Col, Row } from 'antd';
 import { Avatar, Tooltip } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
-import { Button } from 'antd';
-import { SearchOutlined } from '@ant-design/icons';
 import { Progress } from 'antd';
 import {
   SlidersFilled,
@@ -30,11 +28,14 @@ const Home = () => {
 
 
   const contentStyle = {
-    height: '160px',
+    height: '300px',
     color: '#fff',
-    lineHeight: '160px',
+    lineHeight: '200px',
     textAlign: 'center',
-    background: '#364d79',
+    background: '#5A5A5A',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
   };
 
   return (
@@ -76,7 +77,6 @@ const Home = () => {
         </Header>
 
         <Content style={{ margin: '0 16px' }}>
-          <Button style={{marginTop: '10px', width: '300px', textAlign: 'left'}} icon={<SearchOutlined />}>Procurar por Ativos</Button>
 
        <div className="site-card-wrapper">
 
@@ -84,55 +84,115 @@ const Home = () => {
 
               <Col span={8}>
                 <Card style={{ color: '#91DA6E', height: 300, marginTop: '10px' }} title="Nível de Saúde" bordered={false}>
-                <Progress style={{marginLeft: 80, marginBlock:0}} type="circle" percent={75} />
-                <Title style={{ color: '#48A8FF', textAlign: 'center', marginTop:10  }} level={3}>75%</Title>
+                <Progress style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}} type="circle" percent={75} />
+                <Title style={{ color: '#48A8FF', textAlign: 'center', marginTop: 16}} level={3}>75%</Title>
                 </Card>
               </Col>
 
               <Col span={8}>
                 <Card  style={{ color: '#48A8FF', height: 300, marginTop: '10px' }} title="Insights Resolvidos" bordered={false}>
-                <Progress  style={{marginLeft: 80, alignItems: 'center'}}type="circle" percent={100} />
-                <Title style={{ color: '#48A8FF', textAlign: 'center', marginTop:10 }} level={3}>100%</Title>
+                <Progress  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}type="circle" percent={100} />
+                <Title style={{ color: '#48A8FF', textAlign: 'center',marginTop: 16}} level={3}>100%</Title>
                 </Card>
               </Col>
 
               <Col span={8}>
                 <Card style={{ color: '#FBC04A', height: 300, marginTop: '10px'}} title="Insights Pendentes" bordered={false}>
-                <Progress style={{ marginLeft: 80, marginBlock:0}} type="circle" percent={70} status="exception" />
-                <Title style={{ color: '#48A8FF', textAlign: 'center', marginTop: 10 }} level={3}>70%</Title>
+                <Progress style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} type="circle" percent={70} status="exception" />
+                <Title style={{ color: '#48A8FF', textAlign: 'center',marginTop: 16 }} level={3}>70%</Title>
                 </Card>
               </Col>
 
               <Col span={12}>
-                <Card style={{ color: '#48A8FF', marginTop: 15, height: 500}} title="Ativos" bordered={false}>
+                <Card style={{ color: '#48A8FF', marginTop: 15, height: 800}} title="Ativos" bordered={false}>
                  Unidade 1
                 <Carousel autoplay>
                    <div>
-                     <h3 style={contentStyle}>1</h3>
+                     <h3 style={contentStyle}>
+                      <Card
+                         hoverable
+                         style={{ width: 130 }}
+                         cover={<img alt="example" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFe2p1EAiJtPQS7sTZ-iHE4ZjTimbuOGwaOopolIHNaVFAs1hGGSuPjVyG5btJo34cQ3YDCLfM&usqp=CAc" />}
+                        >
+                        Nome: Servo Motor #SM359
+
+                    </Card>
+                    </h3>
                    </div>
                    <div>
-                      <h3 style={contentStyle}>2</h3>
+                      <h3 style={contentStyle}>
+                        <Card
+                         hoverable
+                         style={{ width: 130 }}
+                         cover={<img alt="example" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFe2p1EAiJtPQS7sTZ-iHE4ZjTimbuOGwaOopolIHNaVFAs1hGGSuPjVyG5btJo34cQ3YDCLfM&usqp=CAc" />}
+                        >
+                        Nome: Servo Motor #SM354
+
+                       </Card>
+                     </h3>
                    </div>
                    <div>
-                      <h3 style={contentStyle}>3</h3>
+                      <h3 style={contentStyle}>
+                      <Card
+                         hoverable
+                         style={{ width: 130 }}
+                         cover={<img alt="example" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFe2p1EAiJtPQS7sTZ-iHE4ZjTimbuOGwaOopolIHNaVFAs1hGGSuPjVyG5btJo34cQ3YDCLfM&usqp=CAc"/>}
+                        >
+                        Nome: Servo Motor  #SM364
+
+                    </Card>
+                      </h3>
                   </div>
                    <div>
-                    <h3 style={contentStyle}>4</h3>
+                    <h3 style={contentStyle}>
+                    <Card
+                         hoverable
+                         style={{ width: 130 }}
+                         cover={<img alt="example" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFe2p1EAiJtPQS7sTZ-iHE4ZjTimbuOGwaOopolIHNaVFAs1hGGSuPjVyG5btJo34cQ3YDCLfM&usqp=CAc"/>}
+                        >
+                        Nome: Servo Motor #SM375
+
+                    </Card>
+                    </h3>
                   </div>
                 </Carousel>
                 Unidade 2
                 <Carousel autoplay>
                    <div>
-                     <h3 style={contentStyle}>1</h3>
+                     <h3 style={contentStyle}>
+                     <Card
+                         hoverable
+                         style={{ width: 130 }}
+                         cover={<img alt="example" src="https://i.imgur.com/rwabBdj.png"/>}
+                        >
+                        Nome: Bomba Hidráulica CXS7-99993
+
+                    </Card>
+                     </h3>
                    </div>
                    <div>
-                      <h3 style={contentStyle}>2</h3>
+                      <h3 style={contentStyle}>
+                      <Card
+                         hoverable
+                         style={{ width: 130 }}
+                         cover={<img alt="example" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFe2p1EAiJtPQS7sTZ-iHE4ZjTimbuOGwaOopolIHNaVFAs1hGGSuPjVyG5btJo34cQ3YDCLfM&usqp=CAc"/>}
+                        >
+                        Nome: Servo Motor #SM375
+
+                    </Card>
+                      </h3>
                    </div>
                    <div>
-                      <h3 style={contentStyle}>3</h3>
-                  </div>
-                   <div>
-                    <h3 style={contentStyle}>4</h3>
+                      <h3 style={contentStyle}>
+                      <Card
+                         hoverable
+                         style={{ width: 130 }}
+                         cover={<img alt="example" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFe2p1EAiJtPQS7sTZ-iHE4ZjTimbuOGwaOopolIHNaVFAs1hGGSuPjVyG5btJo34cQ3YDCLfM&usqp=CAc"/>}
+                        >
+                        Nome: Servo Motor #SM375
+
+                    </Card>
+                      </h3>
                   </div>
                 </Carousel>
 
@@ -141,7 +201,7 @@ const Home = () => {
 
               <Col span={12}>
                 <Card style={{ color: '#FBC04A', marginTop: 15, height: 500, width: 500 }} title="" bordered={false}>
-                  < Geral />
+                  < Geral style={{display: 'flex', justifyContent: 'center', alignItems: 'center' }} />
                 </Card>
               </Col>
             </Row>

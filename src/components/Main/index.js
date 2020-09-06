@@ -4,8 +4,6 @@ import { Layout, Menu } from 'antd';
 import Title from 'antd/lib/typography/Title';
 import { Avatar, Tooltip, Collapse } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
-import { Button } from 'antd';
-import { SearchOutlined } from '@ant-design/icons';
 import {
   SlidersFilled,
   PieChartFilled,
@@ -13,6 +11,9 @@ import {
   HeartTwoTone,
 } from '@ant-design/icons';
 import './styles.css';
+
+import db from '../../data/dados_iniciais.json';
+
 //import Listagem from '../../components/Listagem';
 
 //import Collapsed from '../Collapse';
@@ -33,18 +34,14 @@ const Main = () => {
     console.log(key);
   }
 
-  const text = `
-    A dog is a type of domesticated animal.
-    Known for its loyalty and faithfulness,
-    it can be found as a welcome guest in many households across the world.
-  `;
+
   return (
     <Layout style={{ minHeight: '100vh' }}>
 
       <Sider style={{ paddingTop: 60, marginTop: 0 }} collapsible collapsed={collapsed} onCollapse={onCollapse}>
         <div className="logo" />
 
-        <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
+        <Menu theme="dark" defaultSelectedKeys={['2']} mode="inline">
           <Menu.Item key="1" icon={<PieChartFilled />}>
           <Link to="/">Geral</Link>
           </Menu.Item>
@@ -78,25 +75,22 @@ const Main = () => {
         </Header>
 
         <Content style={{ margin: '0 16px' }}>
-        <Button style={{marginTop: '10px', width: '300px', textAlign: 'left'}} icon={<SearchOutlined />}>Procurar por Ativos</Button>
         </Content>
         <Collapse style={{height:800}} onChange={callback}>
 
     <Panel header="Unidade 1" key="1">
       <Collapse defaultActiveKey="1">
-        <Panel header="Ativo" key="1">
-          <p>{text}</p>
 
-        </Panel>
         <Panel header="Ativo" key="1">
-          <p>{text}</p>
+        {db.units[0].data.assetsData.map(assetItem => <p>{assetItem.name}</p>)}
+
         </Panel>
       </Collapse>
     </Panel>
     <Panel header="Unidade 2" key="1">
       <Collapse defaultActiveKey="1">
         <Panel header="Ativo" key="1">
-          <p>{text}</p>
+          {db.units[1].data.assetsData.map(assetItem => <p>{assetItem.name}</p>)}
         </Panel>
       </Collapse>
     </Panel>
