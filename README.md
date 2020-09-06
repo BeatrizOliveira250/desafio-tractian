@@ -48,4 +48,4 @@ npm start ou yarn start
 ```
 
 🔗 Você pode conferir ele em execução no link:
-  [https://nerdflix-tau.vercel.app/](https://n/)
+  [https://n/](https://n/)
