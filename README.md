@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://https://beatrizoliveira250.github.io/desafio-tractian//">
+  <a href="https://https://beatrizoliveira250.github.io/desafio-tractian/">
     <img alt="250" src="https://github.com/BeatrizOliveira250/desafio-tractian/blob/master/tractian.svg" />
   </a>
 </p>
@@ -48,4 +48,4 @@ npm start ou yarn start
 ```
 
 🔗 Você pode conferir ele em execução no link:
-  [https://https://beatrizoliveira250.github.io/desafio-tractian//](https://https://beatrizoliveira250.github.io/desafio-tractian//)
+  [https://https://beatrizoliveira250.github.io/desafio-tractian/](https://https://beatrizoliveira250.github.io/desafio-tractian/)
