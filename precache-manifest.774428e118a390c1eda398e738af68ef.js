@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1aef2ae8713bbcdc6f2d5f305ea2abaa",
+    "revision": "9cbd741dea8df1e2347bd6c87cb99e3a",
     "url": "/desafio-tractian/index.html"
   },
   {
-    "revision": "8fc3d946f40da6a196d7",
+    "revision": "42c95fdabfbe33dd03e2",
     "url": "/desafio-tractian/static/css/2.d4e7eff5.chunk.css"
   },
   {
-    "revision": "0500c79da524b9076784",
+    "revision": "94450de7b8fba1e92440",
     "url": "/desafio-tractian/static/css/main.4f44eb31.chunk.css"
   },
   {
-    "revision": "8fc3d946f40da6a196d7",
-    "url": "/desafio-tractian/static/js/2.363112ae.chunk.js"
+    "revision": "42c95fdabfbe33dd03e2",
+    "url": "/desafio-tractian/static/js/2.88e05f18.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/desafio-tractian/static/js/2.363112ae.chunk.js.LICENSE.txt"
+    "url": "/desafio-tractian/static/js/2.88e05f18.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0500c79da524b9076784",
-    "url": "/desafio-tractian/static/js/main.74813bd3.chunk.js"
+    "revision": "94450de7b8fba1e92440",
+    "url": "/desafio-tractian/static/js/main.de4e48bf.chunk.js"
   },
   {
     "revision": "949be21e4caae0231f1b",
