@@ -38,8 +38,7 @@ const Main = () => {
   return (
     <Layout style={{ minHeight: '100vh' }}>
 
-      <Sider style={{ paddingTop: 60, marginTop: 0 }} collapsible collapsed={collapsed} onCollapse={onCollapse}>
-        <div className="logo" />
+      <Sider style={{ paddingTop: 60 }} collapsible collapsed={collapsed} onCollapse={onCollapse}>
 
         <Menu theme="dark" defaultSelectedKeys={['2']} mode="inline">
           <Menu.Item key="1" icon={<PieChartFilled />}>
