@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/desafio-tractian/static/css/main.4f44eb31.chunk.css",
-    "main.js": "/desafio-tractian/static/js/main.b5b4f748.chunk.js",
-    "main.js.map": "/desafio-tractian/static/js/main.b5b4f748.chunk.js.map",
+    "main.js": "/desafio-tractian/static/js/main.7fad53b7.chunk.js",
+    "main.js.map": "/desafio-tractian/static/js/main.7fad53b7.chunk.js.map",
     "runtime-main.js": "/desafio-tractian/static/js/runtime-main.be0e4484.js",
     "runtime-main.js.map": "/desafio-tractian/static/js/runtime-main.be0e4484.js.map",
     "static/css/2.d4e7eff5.chunk.css": "/desafio-tractian/static/css/2.d4e7eff5.chunk.css",
     "static/js/2.54a50abd.chunk.js": "/desafio-tractian/static/js/2.54a50abd.chunk.js",
     "static/js/2.54a50abd.chunk.js.map": "/desafio-tractian/static/js/2.54a50abd.chunk.js.map",
     "index.html": "/desafio-tractian/index.html",
-    "precache-manifest.bf96d277bbbc6b66b9c236ab39412cb6.js": "/desafio-tractian/precache-manifest.bf96d277bbbc6b66b9c236ab39412cb6.js",
+    "precache-manifest.8be962d051b5110e3762fda7f7919f45.js": "/desafio-tractian/precache-manifest.8be962d051b5110e3762fda7f7919f45.js",
     "service-worker.js": "/desafio-tractian/service-worker.js",
     "static/css/2.d4e7eff5.chunk.css.map": "/desafio-tractian/static/css/2.d4e7eff5.chunk.css.map",
     "static/css/main.4f44eb31.chunk.css.map": "/desafio-tractian/static/css/main.4f44eb31.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.d4e7eff5.chunk.css",
     "static/js/2.54a50abd.chunk.js",
     "static/css/main.4f44eb31.chunk.css",
-    "static/js/main.b5b4f748.chunk.js"
+    "static/js/main.7fad53b7.chunk.js"
   ]
 }

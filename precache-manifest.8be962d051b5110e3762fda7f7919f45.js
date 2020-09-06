@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7999150740dcaf36cde512a3a0081fa",
+    "revision": "6154562bc3e3628d542150f6c033f74f",
     "url": "/desafio-tractian/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/desafio-tractian/static/css/2.d4e7eff5.chunk.css"
   },
   {
-    "revision": "a59940a6c069aa81018b",
+    "revision": "db5328fac164c6fa518b",
     "url": "/desafio-tractian/static/css/main.4f44eb31.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/desafio-tractian/static/js/2.54a50abd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a59940a6c069aa81018b",
-    "url": "/desafio-tractian/static/js/main.b5b4f748.chunk.js"
+    "revision": "db5328fac164c6fa518b",
+    "url": "/desafio-tractian/static/js/main.7fad53b7.chunk.js"
   },
   {
     "revision": "949be21e4caae0231f1b",
