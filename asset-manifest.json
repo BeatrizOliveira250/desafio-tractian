@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/desafio-tractian/static/css/main.4f44eb31.chunk.css",
-    "main.js": "/desafio-tractian/static/js/main.f0a3aee3.chunk.js",
-    "main.js.map": "/desafio-tractian/static/js/main.f0a3aee3.chunk.js.map",
+    "main.js": "/desafio-tractian/static/js/main.b5b4f748.chunk.js",
+    "main.js.map": "/desafio-tractian/static/js/main.b5b4f748.chunk.js.map",
     "runtime-main.js": "/desafio-tractian/static/js/runtime-main.be0e4484.js",
     "runtime-main.js.map": "/desafio-tractian/static/js/runtime-main.be0e4484.js.map",
     "static/css/2.d4e7eff5.chunk.css": "/desafio-tractian/static/css/2.d4e7eff5.chunk.css",
-    "static/js/2.363112ae.chunk.js": "/desafio-tractian/static/js/2.363112ae.chunk.js",
-    "static/js/2.363112ae.chunk.js.map": "/desafio-tractian/static/js/2.363112ae.chunk.js.map",
+    "static/js/2.54a50abd.chunk.js": "/desafio-tractian/static/js/2.54a50abd.chunk.js",
+    "static/js/2.54a50abd.chunk.js.map": "/desafio-tractian/static/js/2.54a50abd.chunk.js.map",
     "index.html": "/desafio-tractian/index.html",
-    "precache-manifest.a037213d46061669c01433d86260fd10.js": "/desafio-tractian/precache-manifest.a037213d46061669c01433d86260fd10.js",
+    "precache-manifest.bf96d277bbbc6b66b9c236ab39412cb6.js": "/desafio-tractian/precache-manifest.bf96d277bbbc6b66b9c236ab39412cb6.js",
     "service-worker.js": "/desafio-tractian/service-worker.js",
     "static/css/2.d4e7eff5.chunk.css.map": "/desafio-tractian/static/css/2.d4e7eff5.chunk.css.map",
     "static/css/main.4f44eb31.chunk.css.map": "/desafio-tractian/static/css/main.4f44eb31.chunk.css.map",
-    "static/js/2.363112ae.chunk.js.LICENSE.txt": "/desafio-tractian/static/js/2.363112ae.chunk.js.LICENSE.txt"
+    "static/js/2.54a50abd.chunk.js.LICENSE.txt": "/desafio-tractian/static/js/2.54a50abd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.be0e4484.js",
     "static/css/2.d4e7eff5.chunk.css",
-    "static/js/2.363112ae.chunk.js",
+    "static/js/2.54a50abd.chunk.js",
     "static/css/main.4f44eb31.chunk.css",
-    "static/js/main.f0a3aee3.chunk.js"
+    "static/js/main.b5b4f748.chunk.js"
   ]
 }
