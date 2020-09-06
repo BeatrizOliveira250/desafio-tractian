@@ -26,7 +26,7 @@
     "eject": "react-scripts ejec--watch iniciasiis_db",
     "api": "json-server -p 3333 --watch ./src/data/dados_iniciais.json",
     "predeploy": "yarn run build",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
