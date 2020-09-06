@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://n/">
+  <a href="https://https://beatrizoliveira250.github.io/desafio-tractian//">
     <img alt="250" src="https://github.com/BeatrizOliveira250/desafio-tractian/blob/master/tractian.svg" />
   </a>
 </p>
@@ -11,7 +11,7 @@
 ### Aplicação para usuários consultarem a lista de todos os ativos 🤓🔧💻🚜
 
 <p align="center">
-  <a href="">
+  <a href="https://beatrizoliveira250.github.io/desafio-tractian/">
     <img all="500" src="" />
   </a>
 </p>
@@ -48,4 +48,4 @@ npm start ou yarn start
 ```
 
 🔗 Você pode conferir ele em execução no link:
-  [https://n/](https://n/)
+  [https://https://beatrizoliveira250.github.io/desafio-tractian//](https://https://beatrizoliveira250.github.io/desafio-tractian//)
