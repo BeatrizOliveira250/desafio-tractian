@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://n/">
-    <img width="250" src="file:///C:/Users/Ana%20Beatriz/Desktop/desafio-tractian/public/tractian.svg" />
+    <img alt="250" src="https://github.com/BeatrizOliveira250/desafio-tractian/blob/master/tractian.svg" />
   </a>
 </p>
 
