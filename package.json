@@ -20,13 +20,13 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts ejec--watch iniciasiis_db",
-    "api": "json-server -p 3333 --watch ./src/data/dados_iniciais.json"
+    "api": "json-server -p 3333 --watch ./src/data/dados_iniciais.json",
+    "predeploy": "npm run buil",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
