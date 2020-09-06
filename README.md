@@ -29,11 +29,11 @@
    
    [**Npm**](https://www.npmjs.com/)
    
-   [**Yarn**](https://styled-components.com/)
+   [**Yarn**](https://https://yarnpkg.com/)
    
-   [**Ant Design**](https://styled-components.com/)
+   [**Ant Design**](https://https://ant.design/)
    
-   [**Highcharts**](https://styled-components.com/)
+   [**Highcharts**](https://https://www.highcharts.com/)
    
    [**VS Code**](https://code.visualstudio.com/) with [**EditorConfig**](https://editorconfig.org/), [**ESLint**](https://eslint.org/), [**Prettier**](https://https://prettier.io/)
   
