@@ -37,7 +37,7 @@
    
    [**Highcharts**](https://www.highcharts.com/)
    
-   [**VS Code**](https://code.visualstudio.com/) with [**EditorConfig**](https://editorconfig.org/), [**ESLint**](https://eslint.org/), [**Prettier**](https://https://prettier.io/)
+   [**VS Code**](https://code.visualstudio.com/) with [**EditorConfig**](https://editorconfig.org/), [**ESLint**](https://eslint.org/), [**Prettier**](https://prettier.io/)
   
  
 ## ℹ️ Como rodar o projeto?
