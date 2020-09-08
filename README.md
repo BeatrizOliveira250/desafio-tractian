@@ -27,6 +27,8 @@
    
    [**JSON Server**](https://github.com/typicode/json-server/)
    
+   [**Axios**](https://https://github.com/axios/axios/)
+   
    [**Npm**](https://www.npmjs.com/)
    
    [**Yarn**](https://https://yarnpkg.com/)
