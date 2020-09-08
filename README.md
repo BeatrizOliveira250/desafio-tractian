@@ -17,7 +17,7 @@
 </p>
 
 ## ⚙️ Tecnologias:
-   [**JavaScript**](https://https://www.javascript.com//)
+   [**JavaScript**](https://www.javascript.com//)
   
    [**NodeJS**](https://nodejs.org/en/)
    
@@ -27,15 +27,15 @@
    
    [**JSON Server**](https://github.com/typicode/json-server/)
    
-   [**Axios**](https://https://github.com/axios/)
+   [**Axios**](https://github.com/axios/axios)
    
    [**Npm**](https://www.npmjs.com/)
    
-   [**Yarn**](https://https://yarnpkg.com/)
+   [**Yarn**](https://yarnpkg.com/)
    
-   [**Ant Design**](https://https://ant.design/)
+   [**Ant Design**](https://ant.design/)
    
-   [**Highcharts**](https://https://www.highcharts.com/)
+   [**Highcharts**](https://www.highcharts.com/)
    
    [**VS Code**](https://code.visualstudio.com/) with [**EditorConfig**](https://editorconfig.org/), [**ESLint**](https://eslint.org/), [**Prettier**](https://https://prettier.io/)
   
