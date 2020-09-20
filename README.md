@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://beatrizoliveira250.github.io/desafio-tractian/">
-    <img all="500" src="https://github.com/BeatrizOliveira250/desafio-tractian/blob/master/screenshot-rocks%20(2).png" />
+    <img all="500" src="https://github.com/BeatrizOliveira250/desafio-tractian/blob/master/Tractian.svg" />
   </a>
 </p>
 
